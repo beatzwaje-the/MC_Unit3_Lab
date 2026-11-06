@@ -1,0 +1,152 @@
+{
+  "config": {
+    "total_spectrum_MHz": 20.0,
+    "channel_bw_MHz": 0.2,
+    "coverage_area_km2": 100.0,
+    "cell_radius_km": 1.0,
+    "candidate_N": [
+      1,
+      3,
+      4,
+      7,
+      9,
+      12
+    ],
+    "path_loss_exp": 4,
+    "sectors_per_cell": 3,
+    "split_factors": [
+      2,
+      4
+    ]
+  },
+  "rows": [
+    {
+      "N": 1,
+      "Q": 1.7320508075688772,
+      "SIR_dB": 1.7609125905568113,
+      "ch_per_cell": 100,
+      "num_cells": 38,
+      "capacity": 3800
+    },
+    {
+      "N": 3,
+      "Q": 3.0,
+      "SIR_dB": 11.303337684950062,
+      "ch_per_cell": 33,
+      "num_cells": 38,
+      "capacity": 1254
+    },
+    {
+      "N": 4,
+      "Q": 3.4641016151377544,
+      "SIR_dB": 13.80211241711606,
+      "ch_per_cell": 25,
+      "num_cells": 38,
+      "capacity": 950
+    },
+    {
+      "N": 7,
+      "Q": 4.58257569495584,
+      "SIR_dB": 18.66287339084195,
+      "ch_per_cell": 14,
+      "num_cells": 38,
+      "capacity": 532
+    },
+    {
+      "N": 9,
+      "Q": 5.196152422706632,
+      "SIR_dB": 20.84576277934331,
+      "ch_per_cell": 11,
+      "num_cells": 38,
+      "capacity": 418
+    },
+    {
+      "N": 12,
+      "Q": 6.0,
+      "SIR_dB": 23.34453751150931,
+      "ch_per_cell": 8,
+      "num_cells": 38,
+      "capacity": 304
+    }
+  ],
+  "split_rows": [
+    {
+      "R": 1.0,
+      "factor": 1,
+      "num_cells": 38,
+      "capacity": 532,
+      "gain": 1.0
+    },
+    {
+      "R": 0.5,
+      "factor": 2,
+      "num_cells": 153,
+      "capacity": 2142,
+      "gain": 4.026315789473684
+    },
+    {
+      "R": 0.25,
+      "factor": 4,
+      "num_cells": 615,
+      "capacity": 8610,
+      "gain": 16.18421052631579
+    },
+    {
+      "R": 0.125,
+      "factor": 8,
+      "num_cells": 2463,
+      "capacity": 34482,
+      "gain": 64.8157894736842
+    }
+  ],
+  "sector_rows": [
+    {
+      "N": 1,
+      "Q": 1.7320508075688772,
+      "SIR_omni_dB": 1.7609125905568113,
+      "SIR_sect_dB": 6.532125137753435,
+      "ch_per_sector": 33,
+      "cap_per_sector_total": 3762
+    },
+    {
+      "N": 3,
+      "Q": 3.0,
+      "SIR_omni_dB": 11.303337684950062,
+      "SIR_sect_dB": 16.074550232146684,
+      "ch_per_sector": 11,
+      "cap_per_sector_total": 1254
+    },
+    {
+      "N": 4,
+      "Q": 3.4641016151377544,
+      "SIR_omni_dB": 13.80211241711606,
+      "SIR_sect_dB": 18.573324964312683,
+      "ch_per_sector": 8,
+      "cap_per_sector_total": 912
+    },
+    {
+      "N": 7,
+      "Q": 4.58257569495584,
+      "SIR_omni_dB": 18.66287339084195,
+      "SIR_sect_dB": 23.434085938038574,
+      "ch_per_sector": 4,
+      "cap_per_sector_total": 456
+    },
+    {
+      "N": 9,
+      "Q": 5.196152422706632,
+      "SIR_omni_dB": 20.84576277934331,
+      "SIR_sect_dB": 25.616975326539936,
+      "ch_per_sector": 3,
+      "cap_per_sector_total": 342
+    },
+    {
+      "N": 12,
+      "Q": 6.0,
+      "SIR_omni_dB": 23.34453751150931,
+      "SIR_sect_dB": 28.115750058705935,
+      "ch_per_sector": 2,
+      "cap_per_sector_total": 228
+    }
+  ]
+}

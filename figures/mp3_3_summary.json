@@ -1,0 +1,26 @@
+{
+  "naive": {
+    "HO": 4,
+    "RLF": 0,
+    "PP": 2
+  },
+  "hyst_ttt": {
+    "HO": 2,
+    "RLF": 0,
+    "PP": 0
+  },
+  "cfg": {
+    "N_samples": 360,
+    "tx_power_dBm": 23.0,
+    "PL_exp": 3.5,
+    "PL_ref_dB": 38.0,
+    "noise_sigma": 1.5,
+    "RLF_thresh": -110.0,
+    "RLF_hold": 5,
+    "attach_thresh": -100.0,
+    "HO_complete": 3,
+    "margin": 3.0,
+    "TTT": 5,
+    "pp_window": 20
+  }
+}
